@@ -25,7 +25,7 @@ R60913        | 307, 308, 411, 412      | ichenyeh@saturn.yzu.edu.tw | 03-463-88
 	<p>Slide Presentation and Lecture</p>
 
 - **Handout**
-	<p>YZU Portal</p>
+	<p>[YZU Portal](https://portalx.yzu.edu.tw/PortalSocialVB/Login.aspx)</p>
 
 ----
 
@@ -33,7 +33,7 @@ R60913        | 307, 308, 411, 412      | ichenyeh@saturn.yzu.edu.tw | 03-463-88
 ###<i class="icon-circle"></i>**Course Reading**
 No. | Reading Type | Language | Material Type | Title | Library Link
 --- | ------------ | -------- | ------------- | ----- | ------------
-1   | Textbook	   | English  | Book	        | C++ How to Program, Late Objects Version | [Link](http://lib.yzu.edu.tw/ajaxYZlib/Search/Holding.aspx?BiblioSNo=488126)
+1   | Textbook	   | English  | Book	      | C++ How to Program, Late Objects Version | [Link](http://lib.yzu.edu.tw/ajaxYZlib/Search/Holding.aspx?BiblioSNo=488126)
 
 
 ----

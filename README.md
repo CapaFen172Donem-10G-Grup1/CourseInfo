@@ -25,7 +25,7 @@ R60913        | 307, 308, 411, 412      | ichenyeh@saturn.yzu.edu.tw | 03-463-88
 	<p>Slide Presentation and Lecture</p>
 
 - **Handout**
-	<p>[YZU Portal](https://portalx.yzu.edu.tw/PortalSocialVB/Login.aspx)</p>
+	[<p>YZU Portal</p>](https://portalx.yzu.edu.tw/PortalSocialVB/Login.aspx)
 
 ----
 

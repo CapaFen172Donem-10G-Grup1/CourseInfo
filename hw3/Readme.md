@@ -1,15 +1,15 @@
 Assignment 03 - the Enigma
 ===================
 
-Please read "Intro_Enigma.pptx" first and figure out the secret behind the Enigma carefully.
+Please read **"Intro_Enigma.pptx"** first and figure out the secret behind the Enigma carefully.
 
-Extend the example codes (Enigma.h & Enigma_Base.h) and provide your own version of Enigma encoder. This program should encode string from a file (original_data.txt) and output *encoded* string to a file, too. (encoded_data.txt).
+Extend the example codes (Enigma.h & Enigma_Base.h) and provide your own version of Enigma encoder. This program should encode string from a file (original_data.txt) and output **encoded string** to a file, too. (encoded_data.txt).
 
-Please follow the example code and create derived class for each component of Enigma.
+Please follow the example codes and create derived class for each component of Enigma. 
 
 A win32 executable program has been provide in the ./example/TAsEnigma.exe. Also, a referenced Main.cpp has been provided, too.
 
-Due date:  5/14 (Thu.)
+**Due date:  5/14 (Thu.)**
 
 ----------
 A common workflow of preparation of your homework (UPDATED)

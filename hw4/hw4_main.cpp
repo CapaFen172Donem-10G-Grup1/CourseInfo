@@ -7,34 +7,34 @@ int main()
 {
   Vector A,B,C;
   A.push_back(3);   A.push_back(4);   A.push_back(5);
-  cout << "A = " << A; //"3 4 5"
+  cout << "A = " << A; //"A = 3 4 5"
   A[1] = 7;
   
   B = A; cout << "B = A" << endl;
-  cout << "B = " << B; //"3 7 5"
+  cout << "B = " << B; //"B = 3 7 5"
 
   B.push_back(9);   B.push_back(10);  B.push_back(11); 
-  cout << "(pushed)B = " << B; //"3 7 5 9 10 11"
+  cout << "(pushed)B = " << B; //"(pushed)B = 3 7 5 9 10 11"
 
   C.reserve(15);
   C.assign(B.begin(), B.end());
-  cout << "capacity of C(reserved) = " << C.getCapacity(); // capacity of C = 15
+  cout << "capacity of C(reserved) = " << C.getCapacity(); // capacity of C(reserved) = 15
   cout << "size of C = " << C.getSize(); //size of C = 6
-  cout << "(assigned)C = " << C; //"3 7 5 9 10 11"
+  cout << "(assigned)C = " << C; //(assigned)C = "3 7 5 9 10 11"
 
   C.shrink_to_fit();
-  cout << "capacity of C(shrinked) = " << C.getCapacity(); // capacity of C = 6
+  cout << "capacity of C(shrinked) = " << C.getCapacity(); // capacity of C(shrinked) = 6
 
   int myarray [] = { 2, 4, 63 };
   C.insert((C.begin()+2), myarray, myarray+3 ) // (add 2 & 4)
-  cout << "(inserted)C = " << C; //"3 7 2 4 5 9 10 11"
+  cout << "(inserted)C = " << C; //(inserted)C = "3 7 2 4 5 9 10 11"
 
   C.erase(C.begin(), C.begin()+5); // (remove 3 7 2 4 5)
-  cout << "(erased)C = " << C; //"9 10 11"
+  cout << "(erased)C = " << C; //(erased)C = "9 10 11"
 
   B.swap(C); cout << "swap B and C" << endl;
-  cout << "B = " << B; //"9 10 11"
-  cout << "C = " << C; //"3 7 5"
+  cout << "B = " << B; //B = "9 10 11"
+  cout << "C = " << C; //C = "3 7 5"
 
   //============================================
 

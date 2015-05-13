@@ -1,15 +1,24 @@
 Assignment 04 - the Big one with your own Vector
 ===================
 
-Extend the example codes (Enigma.h & Enigma_Base.h) and provide your own version of Enigma encoder. This program should encode string from a file (original_data.txt) and output **encoded string** to a file, too. (encoded_data.txt).
+To enforce your skill of programming, we ask you to rebuild the `class` ***HugeUInteger*** with your own ***Vector*** class. This homework is highly similar to 2nd midterm in the 5/9. If you are not familiar with it, please attend our class to figure out the details.
 
-Please follow the example codes and create derived class for each component of Enigma. 
+There are five files need to be submitred: (s1234567 is just a example of student ID)
+s1234567hw4_main.cpp (midterm_2nd.cpp) > the driver program
+(the new outputs of drvier programe had been added into comments of each line of codes
+new: output of testing codes of ***Vector*** class)
 
-A win32 executable program has been provide in the ./example/TAsEnigma.exe. Also, a referenced Main.cpp has been provided, too.
+s1234567hw4_Vector.h (PG2Vector.h) > your own Vector class
+s1234567hw4_Vector.cpp (PG2Vector_partial.cpp) > partial implmentation
 
-In the end, please follow rules strictly. (Include 作業繳交規範 by 徐皓)
+s1234567hw4_HugeUInteger.h (PG2HugeUInteger.h) > similar to hw1
+s1234567hw4_HugeUInteger.cpp (PG2HugeUInteger_partial.cpp) > partial implmentation
 
-**Due date:  5/14 (Thu.)**
+***NOTE***: use `std::vector` is NOT allow in the homework
+
+In the end, please follow rules strictly. (Include 作業繳交規範 by TA)
+
+**Due date:  5/21 (Thu.)**
 
 ----------
 A common workflow of preparation of your homework
@@ -21,7 +30,6 @@ A common workflow of preparation of your homework
 
 2. After you start to deal with your homework, add a file s1234567hw#_main.cpp as your main program and s1234567hw#_report.md as your report (optional). Then, commit it! **(Don't forget to push it onto GitHub, too)** 
 **Any of your code should be prefixed with "1234567hw#_"**.
-**For example: s1234567hw3_Enigma.h, s1234567hw3_Enigma_Base.h**
 
 3. Complete your program and write your report (if necessary) with Markdown.
 *. Please commit your homework when you have any progress (The project should be compilable 可編譯).

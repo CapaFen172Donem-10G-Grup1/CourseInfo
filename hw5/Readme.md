@@ -8,14 +8,14 @@ This time, we ask you to create a series of classes to manage various type of sh
 These operation include:
 
 print(): Print information of this shape.
--------------
-> Example:
-TYPE: Pentagon
-(2.01, 4.56)
-(7.45, 5.65)
-(6.55, 2.44)
-(3.05, 0.0)
-(0.0, 3.15)
+
+Example:
+> TYPE: Pentagon <br>
+(2.01, 4.56) <br>
+(7.45, 5.65) <br>
+(6.55, 2.44) <br>
+(3.05, 0.0) <br>
+(0.0, 3.15) <br>
 
 getType(): return **ShapeType** directly. (the Enumeration)
 
@@ -34,41 +34,40 @@ Please refer to pdf file for more detail.
 
 Sample inputs
 -------------
-> 
-3   2.01 4.56  7.45  5.65  6.55  2.44  3.05  0.0  0.0  3.15
-1   2.01 4.56  7.45  5.65  6.55  2.44
-7   -2.0  0.0 0.0 6.0 2.0 0.0 
+>  3   2.01 4.56  7.45  5.65  6.55  2.44  3.05  0.0  0.0  3.15 <br>
+1   2.01 4.56  7.45  5.65  6.55  2.44 <br>
+7   -2.0  0.0 0.0 6.0 2.0 0.0  <br>
 
 Sample outputs
 -------------
-> 
-# of shapes = 3
-TYPE: Pentagon
-(2.01,4.56)
-(7.45,5.65)
-(6.55,2.44)
-(3.05,0)
-(0,3.15)
-AREA: ... (please calculate this value by yourself)
-Valid?: YES
-Convex?: YES
-
-TYPE: Triangle
-(2.01,4.56)
-(7.45,5.65)
-(6.55,2.44)
-AREA: ...
-Valid?: YES
-Convex?: YES
-
-TYPE: Isosceles_triangle
-(-2,0)
-(0,6)
-(2,0)
-AREA: 2
-Valid?: YES
-Convex?: YES
-
+> \# of shapes = 3 <br>
+TYPE: Pentagon <br>
+(2.01,4.56) <br>
+(7.45,5.65) <br>
+(6.55,2.44) <br>
+(3.05,0) <br>
+(0,3.15) <br>
+AREA: ... (please calculate this value by yourself) <br>
+Valid?: YES <br>
+Convex?: YES <br>
+ <br>
+TYPE: Triangle <br>
+(2.01,4.56) <br>
+(7.45,5.65) <br>
+(6.55,2.44) <br>
+AREA: ... <br>
+Valid?: YES <br>
+Convex?: YES <br>
+ <br>
+TYPE: Isosceles_triangle <br>
+(-2,0) <br>
+(0,6) <br>
+(2,0) <br>
+AREA: 2 <br>
+Valid?: YES <br>
+Convex?: YES <br>
+ <br>
+ 
 ----------
 
 There are at least five files need to be submitred: (s1234567 is just a example of student ID)

@@ -6,11 +6,11 @@ This time, we ask you to use template class/function to build up a set of classe
 Please follow my detail illustration in the course and 
 read ***Hw6_The_Matrix_and_his_happy_fellows.pdf*** carefully.
 
-The provided codes are impossible to be compiled directly, please find the way to complete it and make it compilable. BTW, There are lots of comments in the provided codes, please follow them to add codes. (You could find most of grading policy in these comments)
+The provided codes are impossible to be compiled directly, please find the way to complete it and make it compilable. BTW, There are a lots of comments in the provided codes, please follow them to add your own codes. (You could find most of grading policy in these comments)
 
 ----------
 
-There are at least five files need to be submitred: (s1234567 is just a example of student ID)
+There are at least five files need to be submitted: (s1234567 is just a example of student ID)
 
 s1234567hw6_Main.cpp (My_Main.cpp) > the driver program
 
